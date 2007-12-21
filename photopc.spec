@@ -10,6 +10,7 @@ License: Distributable
 URL: http://www.average.org/digicam/
 Group: Graphics
 Source: %{name}-%{version}.tar.bz2
+Buildroot: %{_tmppath}/%{name}-buildroot
 
 %description
 This is a library and a command-line frontend to manipulate digital
