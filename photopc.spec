@@ -1,6 +1,6 @@
 %define name photopc
 %define version 3.05
-%define release %mkrel 9
+%define release %mkrel 10
 
 Summary: Digital camera image downloader
 Name: %{name}
