@@ -72,3 +72,31 @@ rm -rf $RPM_BUILD_ROOT
 %_libdir/*
 
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tvignaud@mandriva.com> 3.05-11mdv2010.0
++ Revision: 430688
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tvignaud@mandriva.com> 3.05-10mdv2009.0
++ Revision: 258992
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tvignaud@mandriva.com> 3.05-9mdv2009.0
++ Revision: 246863
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 3.05-7mdv2008.1
++ Revision: 136373
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Thu Nov 23 2006 Lenny Cartier <lenny@mandriva.com> 3.05-7mdv2007.0
++ Revision: 86780
+- Use mkrel
+- Import photopc
+
