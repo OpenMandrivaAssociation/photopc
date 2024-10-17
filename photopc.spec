@@ -7,7 +7,7 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 License: Distributable
-URL: http://www.average.org/digicam/
+URL: https://www.average.org/digicam/
 Group: Graphics
 Source: %{name}-%{version}.tar.bz2
 Buildroot: %{_tmppath}/%{name}-buildroot
