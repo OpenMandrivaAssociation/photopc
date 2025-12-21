@@ -12,6 +12,11 @@ Group: Graphics
 Source: %{name}-%{version}.tar.bz2
 Buildroot: %{_tmppath}/%{name}-buildroot
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 This is a library and a command-line frontend to manipulate digital
 still cameras based on Fujitsu chipset and Sierra Imaging firmware.  The
